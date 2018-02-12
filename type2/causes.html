@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Type 1 - Causes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Roboto", sans-serif
+        }
+
+        .w3-bar-block .w3-bar-item {
+            padding: 16px;
+            font-weight: bold
+        }
+    </style>
+</head>
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
+        <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="../index.html">
+		<img src="../images/treating-diabetes.jpg" height="88" alt="diabetes" width="238"></a>
+        <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+        <a class="w3-bar-item w3-button w3-teal" href="../index.html">Home</a>
+        <div>
+            <a class="w3-bar-item w3-button" onclick="myAccordion('type1')" href="javascript:void(0)">Type 1 <i class="fa fa-caret-down"></i></a>
+            <div id="type1" class="w3-hide">
+                <a class="w3-bar-item w3-button" href="../type1/overview.html">Overview</a>
+                <a class="w3-bar-item w3-button" href="../type1/causes.html">Causes</a>
+                <a class="w3-bar-item w3-button" href="../type1/treatment.html">Treatment</a>
+            </div>
+        </div>
+        <div>
+            <a class="w3-bar-item w3-button" onclick="myAccordion('type2')" href="javascript:void(0)">Type 2 <i class="fa fa-caret-down"></i></a>
+            <div id="type2" class="w3-hide">
+                <a class="w3-bar-item w3-button" href="../type2/overview.html">Overview</a>
+                <a class="w3-bar-item w3-button" href="../type2/causes.html">Causes</a>
+                <a class="w3-bar-item w3-button" href="../type2/treatment.html">Treatment</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <div class="w3-main" style="margin-left:250px;">
+
+        <div id="myTop" class="w3-container w3-top w3-theme w3-large">
+            <p>
+                <i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+                <span id="myIntro" class="w3-hide">W3.CSS: Introduction</span>
+            </p>
+        </div>
+
+        <header class="w3-container w3-theme" style="padding:64px 32px">
+            <h1 class="w3-xxxlarge">Type 1 diabetes</h1>
+        </header>
+        <div class="w3-bar w3-black">
+			<a href="overview.html" class="w3-bar-item w3-button">Overview</a>
+  			<a href="causes.html" class="w3-bar-item w3-button">Causes</a>
+  			<a href="treatment.html" class="w3-bar-item w3-button">Treatment</a>
+		</div>
+
+        <div class="w3-container" style="padding:32px">
+
+            <h2>Causes of type 2 diabetes</h2>
+<p>In type 2 diabetes, there are several reasons why the pancreas doesn't produce enough insulin.</p>
+<hr>
+<h2 >Risk factors for type 2 diabetes</h2>
+<p>Three of the main risk factors for developing type 2 diabetes are:</p>
+<ul class="w3-leftbar w3-theme-border" style="list-style:disc">
+<li>age – being over the age of 40 (over 25 for people of south Asian, Chinese, African-Caribbean or black African origin, even if you were born in the UK)   </li>
+<li>genetics – having a close relative with the condition, such as a parent, brother or sister </li>
+<li>weight – being overweight or obese </li>
+</ul>
+<p>People of south Asian and African-Caribbean origin also have an increased risk of developing complications of diabetes, such as heart disease, at a younger age than the rest of the population.</p>
+<hr>
+<h3>Age</h3>
+<p>Your risk of developing type 2 diabetes increases with age. This may be because people tend to gain weight and exercise less as they get older.</p>
+<p>Maintaining a healthy weight by eating a healthy, balanced diet and exercising regularly are ways of preventing and managing diabetes.</p>
+<p>White people over the age of 40 have an increased risk of developing the condition. People of south Asian, Chinese, African-Caribbean and black African origin have an increased risk of developing type 2 diabetes at a much earlier age.</p>
+<p>However, despite increasing age being a risk factor for type 2 diabetes, over recent years younger people from all ethnic groups have been developing the condition.</p>
+<p>It's also becoming more common for children – as young as seven in some cases – to develop type 2 diabetes.</p>
+<hr>
+<h3>Genetics</h3>
+<p>Genetics is one of the main risk factors for type 2 diabetes. Your risk of developing the condition is increased if you have a close relative such as a parent, brother or sister who has the condition. </p>
+<p>The closer the relative, the greater the risk. A child who has a parent with type 2 diabetes has about a one in three chance of also developing the condition.</p>
+<hr>
+<h3>Being overweight or obese</h3>
+<p>You're more likely to develop type 2 diabetes if you're overweight or obese.</p>
+<p>For most people in the UK, a body mass index (BMI) of:</p>
+<ul class="w3-leftbar w3-theme-border" style="list-style:disc">
+<li>25 or above puts you in the overweight range </li>
+<li>30 or above puts you in the obese range </li>
+</ul>
+<p>However, some groups have a higher risk of developing type 2 diabetes:</p>
+<ul class="w3-leftbar w3-theme-border" style="list-style:disc">
+<li>Asians with a BMI score of 23 or more are at increased risk of developing type 2 diabetes </li>
+<li>Asians with a BMI of 27.5 or more are at high risk of developing type 2 diabetes </li>
+</ul>
+<p>Fat around your tummy (abdomen) particularly increases your risk. This is because it releases chemicals that can upset the body's cardiovascular and metabolic systems.</p>
+<p>This increases your risk of developing a number of serious conditions, including: </p>
+<ul class="w3-leftbar w3-theme-border" style="list-style:disc">
+<li>coronary heart disease</li>
+<li>stroke</li>
+<li>some types of cancer</li>
+</ul>
+<p>Measuring your waist is a quick way of assessing your diabetes risk. This is a measure of abdominal <a href="/conditions/Obesity/Pages/Introduction.aspx">obesity</a>, which is a particularly high-risk form of obesity.</p>
+<p>Some groups have a higher risk of developing type 2 diabetes, based on their waist measurements:</p>
+<ul class="w3-leftbar w3-theme-border" style="list-style:disc">
+<li>women with a waist size of 80cm (31.5 inches) or more </li>
+<li>Asian men with a waist size of 89cm (35 inches) or more </li>
+<li>white or black men with a waist size of 94cm (37 inches) or more </li>
+</ul>
+<p>Use the BMI calculator to find out if you're a healthy weight for your height.</p>
+<p>Exercising regularly and reducing your body weight by about 5% could reduce your risk of getting diabetes by more than 50%.</p>
+<hr>
+<h3>Other risks</h3>
+<p>Your risk of developing type 2 diabetes is also increased if your blood glucose level is higher than normal, but not yet high enough to be diagnosed with diabetes.</p>
+<p>This is sometimes called pre-diabetes, and doctors sometimes call it impaired fasting glycaemia (IFG) or impaired glucose tolerance (IGT).</p>
+<p>Pre-diabetes can progress to type 2 diabetes if you don't take preventative steps, such as making lifestyle changes. These include eating healthily, losing weight if you're overweight, and taking plenty of regular exercise.</p>
+            <hr>			
+			<p>These pages are about type 1 diabetes. Other types of diabetes 
+			are covered separately.</p>
+			<div class="w3-center">
+			<a class="w3-button w3-block w3-teal w3-round-large" style="width:50%" href="../type2/overview.html">Read about type 2 diabetes</a>
+			</div>
+
+
+        </div>
+
+        <footer class="w3-container w3-theme" style="padding:32px">
+            <p>Connor Bill</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Open and close the sidebar on medium and small screens
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Change style of top container on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+                document.getElementById("myIntro").classList.add("w3-show-inline-block");
+            } else {
+                document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+                document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+            }
+        }
+
+        // Accordions
+        function myAccordion(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-theme";
+            } else {
+                x.className = x.className.replace("w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-theme", "");
+            }
+        }
+    </script>
+
+</body>
+</html>
